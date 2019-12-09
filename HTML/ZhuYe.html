@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="ch">
+<head>
+<meta charset="utf-8">
+<title>第五人格</title>
+	<link rel="stylesheet" href="../css/Zong.css">
+	<link rel="stylesheet" href="../css/header-footer.css">
+	<link rel="stylesheet" href="../css/ZhuYe.css"/>
+    <link rel="short icon" href="../images/LOGO.gif">
+</head>
+
+<body onscroll="get()">
+
+<header>
+	<a name="a"></a>
+	<div>
+		<p><img src="../images/header/LOGO.png" alt=""></p>
+		<ul>
+			<li><a href="#">主页</a></li>
+			<li><a href="JueSeYiLan.html" target="_blank">角色一览</a></li>
+			<li><a href="DiTuJieShao.html" target="_blank">地图介绍</a></li>
+			<li><a href="BlackJack.html" target="_blank">“黑杰克”</a></li>
+		</ul>
+		<p>
+			<a><img onclick="openXZ()" src="../images/header/download_an02_a6afd15.png" alt=""></a>
+			<a><img onclick="openXZ()" src="../images/header/download_ios02_81884eb.png" alt=""></a>
+		</p>
+	</div>
+	<span class="audio_span" onclick="audioPlay()"><audio src="../audio/王景飞%20-%20第五人格.mp3" autoplay loop></audio></span>
+</header>
+
+<div id="zhuti-0">
+</div>
+
+<section>
+	<a id="top" href="#a"></a>
+	<div id="HuoDong">
+		<p><img src="../images/ZhuYe/title/title1.png" alt=""></p>
+		<div id="hd_banner" class="clear">
+			<ul class="hd_banner_ul1 left">
+				<li class="text" onmousemove="textMove(0)" onmouseout="textOut(0)">IVC冬季精英赛</li>
+				<li class="text" onmousemove="textMove(1)" onmouseout="textOut(1)">第五疯人院</li>
+				<li class="text" onmousemove="textMove(2)" onmouseout="textOut(2)">祝福之行活动</li>
+				<li class="text" onmousemove="textMove(3)" onmouseout="textOut(3)">第五人格×伊藤润二</li>
+				<li class="text" onmousemove="textMove(4)" onmouseout="textOut(4)">女神异闻录 第一弹</li>
+				<li class="text" onmousemove="textMove(5)" onmouseout="textOut(5)">女神异闻录 第一弹</li>
+				<li class="text" onmousemove="textMove(6)" onmouseout="textOut(6)">全新玩法BlackJack</li>
+				<li class="text" onmousemove="textMove(7)" onmouseout="textOut(7)">女神异闻录 第二弹</li>
+			</ul>
+			<ul class="hd_banner_ul2 right">
+				<li class="picture"><img src="../images/HuoDong/banner/1.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/2.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/3.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/4.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/5.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/6.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/7.jpg" alt=""></li>
+				<li class="picture"><img src="../images/HuoDong/banner/8.jpg" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<div id="GongGao" class="clear">
+		<p><img src="../images/ZhuYe/title/title2.png" alt=""></p>
+		<div>
+			<ul class="left">
+				<li><a href="GongGao.html" target="_blank">【更新公告】女神异闻录5联动继续，箱子规则等战斗调整，IVC冬季精英赛淘汰赛再战</a></li>
+				<li><a href="#">【更新公告】女神异闻录5联动第二弹开启,积分公益活动上线，IVC第四周开战</a></li>
+				<li><a href="#">【更新公告】祭司演绎之星时装上架商城，先知角色日活动开启，二级密码功能上线</a></li>
+				<li><a href="#">【更新公告】万圣节活动盛大开启，古堡盛宴礼包上架商城，新系统活动商城开放</a></li>
+				<li><a href="#">【更新公告】第九赛季精华2开放，新监管者26号守卫加入庄园，IVC冬季精英赛即将开战</a></li>
+				<li><a href="#">【更新公告】机械师、先知时装上架商城，本周全角色限免开启</a></li>
+				<li><a href="#">【更新公告】第九赛季新求生者调酒师加入庄园，祝福之行活动开启</a></li>
+				<li><a href="#">【更新公告】赛季冲刺活动开启，大副、祭司等角色调整</a></li>
+				<li><a href="#">【更新公告】中秋活动开启，月神再临庄园；园丁礼包上架，荧荧幽光寄思</a></li>
+			</ul>
+			<ul id="date">
+				<li>2019/11/13</li>
+				<li>2019/11/06</li>
+				<li>2019/10/30</li>
+				<li>2019/10/23</li>
+				<li>2019/10/16</li>
+				<li>2019/10/09</li>
+				<li>2019/10/09</li>
+				<li>2019/10/09</li>
+				<li>2019/10/09</li>
+			</ul>
+		</div>
+		<!--<div class="line"></div>-->
+	</div>
+	
+	<div id="download" onclick="closeXZ()">
+		<span><img src="../images/download.jpg" alt=""></span>
+	</div>
+</section>
+
+<footer>
+	<ul>
+		<li class="left"><img src="../images/footer/wy_logo0.png" alt=""><img src="../images/footer/wy_logo.png" alt=""></li>
+		<li class="left"><img src="../images/footer/wen.png" alt="">&nbsp;&nbsp;<img src="../images/footer/wen2.png" alt=""></li>
+		<li>
+			分享到:
+			<span><img src="../images/footer/WeiXin.png" alt=""></span>
+			<span><img src="../images/footer/WeiBo.png" alt=""></span>
+		</li>
+		<li>
+			<a><img onclick="openXZ()" src="../images/header/download_an02_a6afd15.png" alt=""></a>
+			<a><img onclick="openXZ()" src="../images/header/download_ios02_81884eb.png" alt=""></a>
+			<a><img onclick="openXZ()" src="../images/header/download_PC.png" alt=""></a>
+		</li>
+	</ul>
+</footer>
+
+<script src="../js/audio.js"></script>
+<script src="../js/DiTuJieShao.js" type="text/javascript"></script>
+<script src="../js/HuoDong.js"></script>
+<script src="../js/top.js"></script>
+<script src="../js/Download.js"></script>
+
+</body>
+</html>
