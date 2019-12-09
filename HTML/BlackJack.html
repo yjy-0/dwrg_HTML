@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>黑jio克</title>
+    <link rel="stylesheet" href="../css/Zong.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/BlackJack.css">
+    <link rel="short icon" href="../images/LOGO.gif">
+</head>
+<body>
+
+<header>
+    <div>
+        <p><img src="../images/header/LOGO.png" alt=""></p>
+        <ul>
+            <li><a href="ZhuYe.html">主页</a></li>
+            <li><a href="JueSeYiLan.html">角色一览</a></li>
+            <li><a href="DiTuJieShao.html">地图介绍</a></li>
+            <li><a href="BlackJack.html">“黑杰克”</a></li>
+        </ul>
+        <p>
+            <a href="#"><img src="../images/header/download_an02_a6afd15.png" alt=""></a>
+            <a href="#"><img src="../images/header/download_ios02_81884eb.png" alt=""></a>
+        </p>
+    </div>
+</header>
+
+<section>
+    <div id="st_banner"><img src="../images/BlackJack/banner.jpg" alt=""></div>
+
+    <!--规则介绍-->
+    <div id="st_wfjs">
+        <p class="title"><img src="../images/BlackJack/title1.png" alt=""></p>
+        <div class="clear">
+            <ul id="st_wfjs_ul1" class="left">
+                <li class="st_wfjs_ul1_li">
+                    <dl>
+                        <dt>【玩法简介】</dt>
+                        <dd>1、BlackJack玩法是一个5人无差别对局模式，每名玩家将在准备阶段挑选一名求生者以及一名监管者作为自己的“双身份”加入到游戏当中。</dd>
+                        <dd>2、玩家将从系统发牌、相互之间的追逃对抗、道具对抗等方法获得带有点数的诅咒扑克牌。</dd>
+                        <dd>3、每回合开始阶段，诅咒点数最高的玩家将异化成监管者攻击其他玩家，狩猎成功将能转移诅咒。</dd>
+                        <dd>4、如果携带过多的诅咒点数（超过21点），玩家将会变成扑克牌，成为游戏中的一部分留在庄园中（被淘汰）。</dd>
+                        <dd>5、胜利条件：始终保持自己的点数不超过21点，成为游戏唯一的幸存者，取而代之的成为下一个黑杰克；亦或凑齐21点并保持一个回合，成功破除黑杰克的诅咒，逃离庄园。</dd>
+                    </dl>
+                </li>
+                <li class="st_wfjs_ul1_li">
+                    <dl>
+                        <dt>【游戏流程介绍】</dt>
+                        <dd>游戏为回合制，从第一回合开始，按照数字回合进行下去，每个回合最多持续2分钟；回合结束方式有两种，监管者击倒求生者并选择其中一位抽牌结束回合，或者时间到达2分钟结束回合。</dd>
+                        <dd>每个回合分为发牌、分散、变身、追逃及结算共五个阶段。</dd>
+                    </dl>
+                </li>
+                <li class="st_wfjs_ul1_li">
+                    <dl>
+                        <dt>【发牌规则介绍】</dt>
+                        <dd>每回合开始，会给每位场上玩家发一张手牌，手牌数字之和代表玩家当前总点数之和。牌库总共有26张牌，1、2、3、4、5、6、7、8、9、10以及J、Q、K，分为红黑花色，数字代表点数，J、Q、K代表点数1、2、3。</dd>
+                    </dl>
+                </li>
+                <li class="st_wfjs_ul1_li">
+                    <dl>
+                        <dt>【胜负规则】</dt>
+                        <dd>普通获胜：在最终回合中，玩家保持不超过21点，并且点数最大，将获得游戏胜利。</dd>
+                        <dd>若最终回合中，双方均超过21点，那么点数小的玩家将获胜；若最终回合玩家点数相同，则拼花色（黑>红）。</dd>
+                        <dd>BlackJack获胜：玩家在游戏途中达到21点，并且保持21点直至回合结束，将直接获得游戏胜利。超过21点的玩家，点数越小，排名越靠前；未超过21点的玩家，点数越大，排名越靠前。</dd>
+                    </dl>
+                </li>
+                <li class="st_wfjs_ul1_li">
+                    <dl>
+                        <dt>【商城及道具】</dt>
+                        <dd>商城：游戏内战斗界面存在BlackJack商店，玩家可通过游戏行为积累筹码，并在商店购买道具。</dd>
+                        <dd>筹码：筹码为游戏内代币，玩家可以通过破译密码机、击倒求生者以及溜监管者获得筹码。</dd>
+                        <dd>道具：游戏内存在一定数量的游戏道具，可通过BlackJack商店购买，道具可用来增减点数，以及和其他角色进行换牌，洗牌等。</dd>
+                    </dl>
+                </li>
+            </ul>
+            <ul id="st_wfjs_ul2" class="left">
+                <li class="st_wfjs_ul2_li" onclick="title_click(0)" onmousemove="title_hover(0)" onmouseout="title_out(0)">【玩法简介】</li>
+                <li class="st_wfjs_ul2_li" onclick="title_click(1)" onmousemove="title_hover(1)" onmouseout="title_out(1)">【游戏流程介绍】</li>
+                <li class="st_wfjs_ul2_li" onclick="title_click(2)" onmousemove="title_hover(2)" onmouseout="title_out(2)">【发牌规则介绍】</li>
+                <li class="st_wfjs_ul2_li" onclick="title_click(3)" onmousemove="title_hover(3)" onmouseout="title_out(3)">【胜负规则】</li>
+                <li class="st_wfjs_ul2_li" onclick="title_click(4)" onmousemove="title_hover(4)" onmouseout="title_out(4)">【商城及道具】</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--道具介绍-->
+    <!--<p class="title"><img src="../images/BlackJack/title2.png" alt=""></p>-->
+</section>
+
+<footer>
+    <ul class="clear">
+        <li class="left"><img src="../images/footer/wy_logo0.png" alt=""><img src="../images/footer/wy_logo.png" alt=""></li>
+        <li class="left"><img src="../images/footer/wen.png" alt="">&nbsp;&nbsp;<img src="../images/footer/wen2.png" alt=""></li>
+        <li>
+            分享到:
+            <span><img src="../images/footer/WeiXin.png" alt=""></span>
+            <span><img src="../images/footer/WeiBo.png" alt=""></span>
+        </li>
+    </ul>
+</footer>
+
+<script src="../js/BlackJack.js"></script>
+</body>
+</html>
